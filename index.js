@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'antd';
+import Buttons from './src/components/Button/Button';
+//import {Button} from 'antd';
 
 ReactDOM.render(
-  <Button type="primary">Button</Button>
-, document.getElementById('mountNode'));
+  <div style={{ margin: '30px' }} >
+    <Buttons />
+  </div>,
+  document.getElementById('mountNode')
+);
